@@ -1,6 +1,6 @@
 var fs = require('fs');
 var parse = require('csv-parse/lib/sync');
-var ProtoBuf = require('protobufjs');
+var ProtoBuf = require('protobufjs-dota');
 var Steam = exports;
 
 var protos = parse(fs.readFileSync(__dirname + '/protobuf_gen/protos.csv', {
